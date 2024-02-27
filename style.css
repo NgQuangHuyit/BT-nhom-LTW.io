@@ -68,7 +68,7 @@ body {
 }
 
 .input-box input::placeholder {
-    color: #fff;
+    color: #cc3c3c;
 }
 
 .wrapper .remember-forgot {

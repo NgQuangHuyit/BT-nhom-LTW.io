@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
         const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d).{8,}$/;
-        if (!passwordRegex.test(password)) {
+        if (!passwordRegex.test(newPassword)) {
             alert("Mật khẩu phải có ít nhất 8 ký tự, trong đó có ít nhất 1 chữ cái và 1 số.");
             return;
         }
