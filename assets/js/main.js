@@ -33,11 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
         labels: ['0-3', '3-5', '5-7', '7-9', '9-10'],
         datasets: [{
             label: 'Số lượng người dùng tham gia mỗi kỳ thi',
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            backgroundColor: 'rgb(81, 130, 155)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1,
             data: [300, 400, 800, 289, 100],
-            backgroundColor: '#jjj'
         }]
     };
 
