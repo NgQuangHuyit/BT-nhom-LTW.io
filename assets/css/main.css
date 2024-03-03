@@ -85,6 +85,7 @@
 }
 .nav__item:hover {
     cursor: pointer;
+    background-color: #e2e4eb;
 }
 
 .nav__item--active {

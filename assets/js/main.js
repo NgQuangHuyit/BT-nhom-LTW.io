@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var data1 = {
         labels: ['0-3', '3-5', '5-7', '7-9', '9-10'],
         datasets: [{
-            label: 'Số lượng người dùng tham gia mỗi kỳ thi',
+            label: 'Số lượng người tham gia ',
             backgroundColor: 'rgb(81, 130, 155)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1,
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var data2 = {
         labels: ['tham-gia', 'không tham gia'],
         datasets: [{
-            label: 'Ti le tham gia thi',
+            label: 'Ti le',
             backgroundColor: [
                 'rgb(255, 99, 132)',
                 'rgb(54, 162, 235)',
@@ -74,11 +74,6 @@ document.addEventListener("DOMContentLoaded", function() {
         type: 'doughnut',
         data: data2,
         options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            },
             plugins: {
                 title: {
                     display: true,
@@ -90,9 +85,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     var data3 = {
-        labels: ['diem-trung binh'],
+        labels: [''],
         datasets: [{
-            label: 'diem trung binh',
+            label: ['diem trung binh' ,''],
             backgroundColor: [
                 'rgb(255, 99, 132)',
                 'rgb(54, 162, 235)',
@@ -109,15 +104,10 @@ document.addEventListener("DOMContentLoaded", function() {
         type: 'doughnut',
         data: data3,
         options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }, 
             plugins: {
                 title: {
                     display: true,
-                    text: 'Điểm trung bình của người dùng'
+                    text: 'Điểm trung bình'
                 }
             }
         }
