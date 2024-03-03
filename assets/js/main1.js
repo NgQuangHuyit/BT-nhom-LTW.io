@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const password = document.getElementById("password").value;
         // Xử lý đăng nhập  ở đây (chưa cần gọi đến backend)
 
-        window.location.href = "/DashboardAdmin/index.html";
+        window.location.href = "BT-nhom-LTW.io/DashboardAdmin/index.html";
     });
 
     registerForm.addEventListener("submit", function(event) {
