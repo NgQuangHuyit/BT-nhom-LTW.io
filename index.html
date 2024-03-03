@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thi trắc nghiệm</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script> 
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/main1.js" defer></script> 
 </head>
 <body>
     <div class="bg-image--left">
@@ -23,9 +23,6 @@
 
             <div class="input-box">
                 <input type="text" name="Username" id="Username" placeholder="Tài khoản" required>
-            </div>
-
-            <div class="input-box">
                 <input type="password" name="Password" id="password" placeholder="Mật khẩu" required>
             </div>
 
@@ -48,18 +45,13 @@
 
             <div class="input-box">
                 <input type="text" name="newUsername" id="newUsername" required placeholder="Tên người dùng">
-            </div>
-
-            <div class="input-box">
+                <span class="format_error" id="username_format_err"></span>
                 <input type="email" name="email" id="email" required placeholder="Email">
-            </div>
-
-            <div class="input-box">
+                <span class="format_error" id="email_format_err"></span>
                 <input type="password" name="newPassword" id="newPassword" required placeholder="Mật khẩu">
-            </div>
-
-            <div class="input-box">
+                <span class="format_error" id="password_format_err"></span>
                 <input type="password" name="confirmPassword" id="confirmPassword" required placeholder="Xác nhận mật khẩu">
+                <span class="format_error" id="confirm_password_err"></span>
             </div>
 
             <button type="submit" class="btn">Đăng ký</button>
