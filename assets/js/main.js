@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var data1 = {
         labels: ['0-3', '3-5', '5-7', '7-9', '9-10'],
         datasets: [{
-            label: 'Số lượng người tham gia ',
+            label: 'Số lượng ',
             backgroundColor: 'rgb(81, 130, 155)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1,
