@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (this.id == 'list-users') {
                     tabs[1].classList.add('tab--active');
                 }
-                if (this.id == 'list-statistics') {
+                if (this.id == 'statistics') {
                     tabs[2].classList.add('tab--active');
                 }
                 navbarItems.forEach(item => {
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-    
 
     clickNarbarItem();
+
 })
