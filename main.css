@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center ;
+    color: red;
+}
+
+#loginForm {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+    margin: 10px 0;
+
+}
+
+.btn {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 12px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    min-width: 100px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
